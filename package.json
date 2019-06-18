@@ -1,0 +1,24 @@
+{
+  "name": "geno-koop-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roodie-ree/geno-koop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roodie-ree/geno-koop/issues"
+  },
+  "homepage": "https://github.com/roodie-ree/geno-koop#readme",
+  "devDependencies": {
+    "serve": "11.0.1"
+  }
+}
