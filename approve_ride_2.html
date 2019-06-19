@@ -30,8 +30,8 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="offer_ride.html">Ride anbieten</a>
-            <a class="dropdown-item active" href="search_ride.html">Ride suchen</a>
-            <a class="dropdown-item" href="approve_ride.html">Anfragen ansehen</a>
+            <a class="dropdown-item" href="search_ride.html">Ride suchen</a>
+            <a class="dropdown-item active" href="approve_ride.html">Anfragen ansehen</a>
             <a class="dropdown-item" href="manage_ride.html">Rides verwalten</a>
           </div>
         </li>
@@ -54,44 +54,50 @@
   <main role="main" class="container">
     <div class="row">
       <div class="col">
-        <h5>Mitfahrgelegenheit suchen</h5>
-        <form>
-          <div class="form-group">
-            <label>Wann suchen Sie eine Mitfahrgelegenheit?</label>
-            <input type="date" class="form-control" value="2019-06-21">
-          </div>
-          <div class="form-group">
-            <label>Von wo suchen Sie eine Mitfahrgelegnheit?</label>
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <button class="btn btn-dark" type="button">
-                  <i class="fas fa-map-marker-alt"></i>
+        <h5>Meine Mitfahr-Anfragen</h5>
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-4">
+              <img src="img/paris-tomster.png" class="card-img">
+            </div>
+            <div class="col-8">
+              <div class="card-body">
+                <h5 class="card-title">Denis Villeneuve</h5>
+                <p class="card-text">
+                  Abfahrt: Mülheim an der Ruhr<br>
+                  Zeit: 9:00 Uhr<br>
+                  Tag: 21.06.2019
+                </p>
+                <button type="button" class="btn btn-dark">
+                  warte auf Antwort
                 </button>
               </div>
-              <input type="text" class="form-control" placeholder="Start eingeben" value="Essen">
             </div>
           </div>
-          <div class="form-group">
-            <label>Wohin suchen Sie eine Mitfahrgelegnheit?</label>
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <button class="btn btn-dark" type="button">
-                  <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-4">
+              <img src="img/stockholm-tomster.png" class="card-img">
+            </div>
+            <div class="col-8">
+              <div class="card-body">
+                <h5 class="card-title">Olaf Olafson</h5>
+                <p class="card-text">
+                  Abfahrt: Essen-Altenessen<br>
+                  Zeit: 6:45 Uhr<br>
+                  Tag: 25.06.2019
+                </p>
+                <button type="button" class="btn btn-success">
+                  angenommen
                 </button>
               </div>
-              <input type="text" class="form-control" placeholder="Ziel eingeben" value="Münster">
             </div>
           </div>
-          <div class="form-group">
-            <a href="search_ride_2.html">
-              <img src="img/Ride1.png" />
-            </a>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
   </main>
-
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>

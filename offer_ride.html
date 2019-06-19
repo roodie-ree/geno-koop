@@ -32,6 +32,7 @@
             <a class="dropdown-item active" href="offer_ride.html">Ride anbieten</a>
             <a class="dropdown-item" href="search_ride.html">Ride suchen</a>
             <a class="dropdown-item" href="approve_ride.html">Anfragen ansehen</a>
+            <a class="dropdown-item" href="manage_ride.html">Rides verwalten</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -53,9 +54,46 @@
   <main role="main" class="container">
     <div class="row">
       <div class="col">
-        <div class="alert alert-warning" role="alert">
-          Work In Progress
-        </div>
+        <h5>Fahrt anbieten</h5>
+        <form>
+          <div class="form-group">
+            <label>Wann biete ich eine Mitfahrgelegenheit an?</label>
+            <input type="date" class="form-control" value="2019-06-21">
+          </div>
+          <div class="form-group">
+            <label>Um viel Uhr fahre ich los?</label>
+            <input type="time" class="form-control" value="09:00">
+          </div>
+          <div class="form-group">
+            <label>Wo fahre ich los?</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <button class="btn btn-dark" type="button">
+                  <i class="fas fa-map-marker-alt"></i>
+                </button>
+              </div>
+              <input type="text" class="form-control" placeholder="Start eingeben" value="Essen">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Wohin fahre ich?</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <button class="btn btn-dark" type="button">
+                  <i class="fas fa-map-marker-alt"></i>
+                </button>
+              </div>
+              <input type="text" class="form-control" placeholder="Ziel eingeben" value="Münster">
+            </div>
+          </div>
+          <div class="form-group">
+              <img src="img/Ride1.png" />
+          </div>
+          
+            <div class="form-group">
+              <a href="manage_ride.html" class="btn btn-primary">Anfrage senden</a>
+            </div>
+        </form>
       </div>
     </div>
   </main>
